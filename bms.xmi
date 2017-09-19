@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Ie5hYJeoEeevQY_9so3w4A" name="source">
+  <eAnnotations xmi:id="_Ie5hYZeoEeevQY_9so3w4A" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Ie5hYpeoEeevQY_9so3w4A" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Ie5hY5eoEeevQY_9so3w4A" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hZJeoEeevQY_9so3w4A" name="PHY_SITE">
+    <ownedAttribute xmi:id="_Ie5hZZeoEeevQY_9so3w4A" name="ADDRESS_LINE1" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hZpeoEeevQY_9so3w4A" name="ADDRESS_LINE2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hZ5eoEeevQY_9so3w4A" name="ADDRESS_LINE3" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5haJeoEeevQY_9so3w4A" name="POSTCODE" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5haZeoEeevQY_9so3w4A" name="TRIP">
+    <ownedAttribute xmi:id="_Ie5hapeoEeevQY_9so3w4A" name="SCHEDULEDTIME" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5ha5eoEeevQY_9so3w4A" name="STATE">
+    <ownedAttribute xmi:id="_Ie5hbJeoEeevQY_9so3w4A" name="CODE" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hbZeoEeevQY_9so3w4A" name="DESCRIPTION" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hbpeoEeevQY_9so3w4A" name="COUNTRY">
+    <ownedAttribute xmi:id="_Ie5hb5eoEeevQY_9so3w4A" name="CODE" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hcJeoEeevQY_9so3w4A" name="DESCRIPTION" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hcZeoEeevQY_9so3w4A" name="BUS">
+    <ownedAttribute xmi:id="_Ie5hcpeoEeevQY_9so3w4A" name="CAPACITY" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_Ie5hc5eoEeevQY_9so3w4A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hdJeoEeevQY_9so3w4A" name="REGISTRATION_NUMBER" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hdZeoEeevQY_9so3w4A" name="ROUTES">
+    <ownedAttribute xmi:id="_Ie5hdpeoEeevQY_9so3w4A" name="CODE" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hd5eoEeevQY_9so3w4A" name="DESCRIPTION" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5heJeoEeevQY_9so3w4A" name="STATION">
+    <ownedAttribute xmi:id="_Ie5heZeoEeevQY_9so3w4A" name="CODE" visibility="public">
+      <ownedComment xmi:id="_Ie5hepeoEeevQY_9so3w4A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5he5eoEeevQY_9so3w4A" name="DESCRIPTION" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hfJeoEeevQY_9so3w4A" name="CUSTOM_USER"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hfZeoEeevQY_9so3w4A" name="USER_TYPE">
+    <ownedAttribute xmi:id="_Ie5hfpeoEeevQY_9so3w4A" name="CODE" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ie5hf5eoEeevQY_9so3w4A" name="DESCRIPTION" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ie5hgJeoEeevQY_9so3w4A" name="INCIDENT_REPORT"/>
+</uml:Model>

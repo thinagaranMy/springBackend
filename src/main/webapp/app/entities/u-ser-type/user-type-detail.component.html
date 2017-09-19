@@ -1,0 +1,29 @@
+
+<div *ngIf="uSER_TYPE">
+    <h2><span>USER TYPE</span> {{uSER_TYPE.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span>C Ode</span></dt>
+        <dd>
+            <span>{{uSER_TYPE.cOde}}</span>
+        </dd>
+        <dt><span>D Escription</span></dt>
+        <dd>
+            <span>{{uSER_TYPE.dEscription}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'user-type/'+ uSER_TYPE.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span> Edit</span>
+    </button>
+</div>

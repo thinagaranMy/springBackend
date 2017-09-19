@@ -1,0 +1,20 @@
+{
+  "fluentMethods": true,
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "cOde",
+      "comment": "<Enter note text here>",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dEscription",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170915094223",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "entityTableName": "station"
+}

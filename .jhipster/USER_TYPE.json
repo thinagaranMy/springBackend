@@ -1,0 +1,19 @@
+{
+  "fluentMethods": true,
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "cOde",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dEscription",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170915094225",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "entityTableName": "user_type"
+}

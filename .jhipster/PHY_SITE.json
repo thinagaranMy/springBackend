@@ -1,0 +1,27 @@
+{
+  "fluentMethods": true,
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "aDdressLine1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "aDdressLine2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "aDdressLine3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pOstcode",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170915094217",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "entityTableName": "phy_site"
+}

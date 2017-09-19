@@ -1,0 +1,45 @@
+<form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+
+    <div class="modal-header">
+        <h4 class="modal-title" id="myPHY_SITELabel">Create or edit a PHY SITE</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                (click)="clear()">&times;</button>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" [hidden]="!pHY_SITE.id">
+            <label for="id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                   [(ngModel)]="pHY_SITE.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_aDdressLine1">A Ddress Line 1</label>
+            <input type="text" class="form-control" name="aDdressLine1" id="field_aDdressLine1"
+                [(ngModel)]="pHY_SITE.aDdressLine1"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_aDdressLine2">A Ddress Line 2</label>
+            <input type="text" class="form-control" name="aDdressLine2" id="field_aDdressLine2"
+                [(ngModel)]="pHY_SITE.aDdressLine2"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_aDdressLine3">A Ddress Line 3</label>
+            <input type="text" class="form-control" name="aDdressLine3" id="field_aDdressLine3"
+                [(ngModel)]="pHY_SITE.aDdressLine3"  />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" for="field_pOstcode">P Ostcode</label>
+            <input type="text" class="form-control" name="pOstcode" id="field_pOstcode"
+                [(ngModel)]="pHY_SITE.pOstcode"  />
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="clear()">
+            <span class="fa fa-ban"></span>&nbsp;<span>Cancel</span>
+        </button>
+        <button type="submit" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+            <span class="fa fa-save"></span>&nbsp;<span>Save</span>
+        </button>
+    </div>
+</form>
